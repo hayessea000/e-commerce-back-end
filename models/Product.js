@@ -23,7 +23,6 @@ Product.init(
     price: {
       type: DataTypes.DECIMAL,
       allowNull: false,
-      // val
       validate: {
         isDecimal: true,
       },
@@ -32,7 +31,6 @@ Product.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       defaultValue: 10,
-      // val
       validate: {
         isNumeric: true,
       },
